@@ -1,3 +1,13 @@
+    """
+    Implementation xxample of a Singleton class
+
+    Singleton is a desgin pattern to object creation 
+    wich makes sure a class has a unique instance 
+    with global access 
+
+    Use Case: Data base connection
+    """
+
 class MySingleton():
     __instance = None
 
